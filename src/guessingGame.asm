@@ -167,7 +167,7 @@ done:
     ret
 
 
-; prng omg finally got it
+; prng
 _rand:
     mov eax, [next]
     mov ebx, 1103515245
