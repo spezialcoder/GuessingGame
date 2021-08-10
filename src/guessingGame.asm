@@ -22,7 +22,7 @@ section .data
     smallLine db "Too small",LF,0
     bigLine db "Too big",LF,0
     errLine db "Only numbers between 1-99 accepted",LF,0
-    secretNumber db 56
+    secretNumber db 0
     usrInput db 0
 
 section .bss
